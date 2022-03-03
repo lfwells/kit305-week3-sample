@@ -9,9 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Week3Sample">
-        <activity android:name=".ActivityC"></activity>
-        <activity android:name=".ActivityB" />
-        <activity android:name=".ActivityA">
+        <activity android:name=".ActivityC" android:label="Activity C" />
+        <activity android:name=".ActivityB" android:label="Activity B" />
+        <activity android:name=".ActivityA" android:label="Activity A">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
