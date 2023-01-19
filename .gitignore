@@ -73,3 +73,13 @@ replay_pid*
 **/ios/Flutter/flutter_export_environment.sh
 **/ios/ServiceDefinitions.json
 **/ios/Runner/GeneratedPluginRegistrant.*
+/.gradle/7.5/checksums/checksums.lock
+/.gradle/7.5/dependencies-accessors/dependencies-accessors.lock
+/.gradle/7.0.2/executionHistory/executionHistory.bin
+/.gradle/7.5/executionHistory/executionHistory.lock
+/.gradle/7.5/fileHashes/fileHashes.bin
+/.gradle/7.5/fileHashes/fileHashes.lock
+/.gradle/7.5/dependencies-accessors/gc.properties
+/.gradle/7.5/gc.properties
+/.gradle/7.5/fileChanges/last-build.bin
+/.gradle/7.0.2/fileHashes/resourceHashesCache.bin
