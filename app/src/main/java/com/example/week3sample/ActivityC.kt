@@ -3,7 +3,6 @@ package com.example.week3sample
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.week3sample.databinding.ActivityBBinding
 import com.example.week3sample.databinding.ActivityCBinding
 
 class ActivityC : AppCompatActivity() {
@@ -17,7 +16,7 @@ class ActivityC : AppCompatActivity() {
             finish()
         }
         ui.btnOpenA.setOnClickListener {
-            var intent = Intent(this, ActivityA::class.java)
+            val intent = Intent(this, ActivityA::class.java)
             startActivity(intent)
         }
     }

@@ -15,11 +15,11 @@ class ActivityA : AppCompatActivity() {
         setContentView(ui.root)
 
         ui.btnOpenB.setOnClickListener {
-            var intent = Intent(this, ActivityB::class.java)
+            val intent = Intent(this, ActivityB::class.java)
             startActivity(intent)
         }
         ui.btnOpenC.setOnClickListener {
-            var intent = Intent(this, ActivityC::class.java)
+            val intent = Intent(this, ActivityC::class.java)
             startActivity(intent)
         }
     }
